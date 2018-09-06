@@ -16,11 +16,12 @@
 def speak_to_grandma(phrase_for_grandma)
   puts "PHRASE: #{phrase_for_grandma}"
   if !phrase_for_grandma.upcase
-    puts "HUH?! SPEAK UP, SONNY!"
+    returnvalue = "HUH?! SPEAK UP, SONNY!"
   elsif phrase_for_grandma.upcase
-    puts "NO, NOT SINCE 1938!."
+    returnvalue = "NO, NOT SINCE 1938!."
   elsif phrase_for_grandma == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    returnvalue = "I LOVE YOU TOO PUMPKIN!"
   else
   end
+  returnvalue
 end
