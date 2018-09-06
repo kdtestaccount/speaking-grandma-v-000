@@ -14,7 +14,7 @@
 
 
 def speak_to_grandma(phrase_for_grandma)
-  puts phrase_for_grandma
+  puts "PHRASE: #{phrase_for_grandma}"
   if !phrase_for_grandma.upcase
     puts "HUH?! SPEAK UP, SONNY!"
   elsif phrase_for_grandma.upcase
